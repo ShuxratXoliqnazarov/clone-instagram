@@ -499,7 +499,7 @@ export default function CreatePostModal({ open, onClose }) {
 							<img
 								src={URL.createObjectURL(croppedImage)}
 								style={{
-									maxHeight: '100%',
+									maxHeight: '100%'
 									maxWidth: '100%',
 									filter: filter,
 									objectFit: 'contain',
