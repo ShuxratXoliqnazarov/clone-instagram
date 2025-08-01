@@ -22,7 +22,7 @@ export default function LoginComp() {
 	const { login, wrong, loading } = useLoginStore()
 
 	const [showPassword, setShowPassword] = useState(false)
-	const [userName, setUserName] = useState('')
+	const [userName, setUserName] = useState('');
 	const [password, setPassword] = useState('')
 
 	async function handleLogin(e) {
