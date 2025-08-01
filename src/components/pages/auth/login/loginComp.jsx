@@ -26,7 +26,7 @@ export default function LoginComp() {
 	const [password, setPassword] = useState('')
 
 	async function handleLogin(e) {
-		e.preventDefault()
+		e.preventDefault();
 		const user = {
 			userName: e.target.userName.value,
 			password: e.target.password.value,
